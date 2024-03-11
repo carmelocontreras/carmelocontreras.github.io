@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<link href="../css/Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+</header>
+<nav>
+  <ul>
+			<li><a href="../index.html">Inicio</a></li>
+			   <li><a href="Galeria.html">Galería</a></li>
+			<li><a href="Practicas.html">Practicas&nbsp;</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+	  <h2>Tabla Simple</h2>
+	<table>
+	  <thead>
+		<tr>
+		  <th>Nombre</th>
+			<th>Email</th>
+			<th>Celular</th>
+		  </tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>Maria de los Angeles Valencia de Ita</td>
+				<td>maria.valencia@correo.buap.mx</td>
+				<td>2223091039</td>
+			</tr>
+			<!-- Shortcut 1: (tr>td*3)*3 -->
+			<tr>
+				<td>Alinely Medina Galeana</td>
+				<td>alinely.medina@alumno.buap.mx</td>
+				<td>2337689308</td>
+			</tr>
+			<tr>
+				<td>Karla Cabrera Contreras</td>
+				<td>karla.cabrerac@alumno.buap.mx</td>
+				<td>2339087490</td>
+			</tr>
+			<tr>
+				<td>Jocelin Contreras Ramirez</td>
+				<td>jocelin.contreras@alumno.buap.mx</td>
+				<td>2334790947</td>
+			</tr>
+		</tbody>
+		<tfoot>
+		
+		</tfoot>
+	  </table>
+	</section>
+  <section>
+	  <h2>Tabla Zebra en Fila</h2>
+    <table width="80%" border="3" id="tabla_uno">
+	<thead>
+		<tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Deporte</th>
+          <th scope="col">Cooperación</th>
+        </tr>
+		</thead>
+      <tbody>
+        <tr>
+          <td>Mario Lopez Ferrera</td>
+          <td>18</td>
+          <td>Futbol</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Daniela Gomez Herrera</td>
+          <td>15</td>
+          <td>Voleiball</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Gerardo Vazquez Diaz</td>
+          <td>17</td>
+          <td>Futbol</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Valeria Gonzalez Lopez</td>
+          <td>18</td>
+          <td>Basquetbol</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+		<foot>
+		</foot>
+    </table>
+  </section>
+  <section>
+	<!-- Shortcut 2: table>(thead>tr>th*5)+(tbody>(tr>td*5)*6)+tfoot -->
+	  <table id="tabla_dos">
+	  	<thead>
+	  		<tr>
+	  			<th>Nombre</th>
+	  			<th>Dirección</th>
+	  			<th>Telefono</th>
+	  			<th>Genero&nbsp;</th>
+	  			<th>Nacionalidad</th>
+	  		</tr>
+	  	</thead>
+	  	<tbody>
+	  		<tr>
+	  			<td>Juan Perez Lopez&nbsp;</td>
+	  			<td>Calle Mora #45 Col. Villa Universitaria, Puebla Pue.&nbsp;</td>
+	  			<td>2223980874</td>
+	  			<td>Masculino&nbsp;</td>
+	  			<td>Mexicano</td>
+	  		</tr>
+	  		<tr>
+	  			<td>Frank Steven</td>
+	  			<td>2da Norwest, Florida</td>
+	  			<td>4566892794</td>
+	  			<td>Masculino</td>
+	  			<td>Estadounidense</td>
+	  		</tr>
+	  		<tr>
+	  			<td>Fiorela&nbsp;</td>
+	  			<td>Calle Margarita #5, Venecia</td>
+	  			<td>5890392983</td>
+	  			<td>Femenino</td>
+	  			<td>Español</td>
+	  		</tr>
+	  		<tr>
+	  			<td>Marian</td>
+	  			<td>Calle Veracruz #5684, Edo Mexico</td>
+	  			<td>9277499832</td>
+	  			<td>Femenino</td>
+	  			<td>Italiana</td>
+	  		</tr>
+	  		<tr>
+	  			<td>Ian Sukenber</td>
+	  			<td>45 Av, Miami&nbsp;</td>
+	  			<td>0028398989</td>
+	  			<td>Masculino</td>
+	  			<td>Estadounidense&nbsp;</td>
+	  		</tr>
+	  		<tr>
+	  			<td>Manolo</td>
+	  			<td>Avenida las Flores #56, Madrid España&nbsp;</td>
+	  			<td>9023029302</td>
+	  			<td>Masculino</td>
+	  			<td>Españo&nbsp;</td>
+	  		</tr>
+	  	</tbody>
+	  	<tfoot></tfoot>
+	  </table>
+	</section>
+</main>
+<footer>
+  <h6>Elaborado por Carmelo Contreras Teodoro&nbsp;</h6>
+</footer>
+</body>
+</html>
